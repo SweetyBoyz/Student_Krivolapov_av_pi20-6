@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<script type="text/javascript">
+	let k = 0
+	let r = 23
+	let e = 11
+	let w = parseInt(prompt('Введите число: '))
+
+	if (w == r){
+		k++
+		alert(k)
+	}
+	if (w == e) {
+		k++
+		alert(k)
+	}
+
+//2
+for (let i = 1; i < 11; i++) { 
+  alert(i);
+}
+
+//3
+
+let t = 0
+while (t != 1){
+	t = prompt('Ещё по одной?')
+}
+
+//4
+let f = 1
+for (i = 0; i < 14; i++){
+ f = f * (14 - i);
+}
+alert(f)
+
+//5
+
+let str = prompt('Введите вашу фамилию ')
+let ww = str.split('').reverse().join('');
+if (str == ww){
+	alert('Да')
+}
+else{
+	alert('Нет')
+}
+</script>
+<body>
+
+</body>
+</html>
